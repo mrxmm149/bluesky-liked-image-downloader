@@ -1,0 +1,5 @@
+service_uri = "https://bsky.social"
+login_id = ""
+login_pw = ""
+target_user = ""
+download_directory = "bluesky-liked-image-downloader/"

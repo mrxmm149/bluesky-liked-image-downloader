@@ -1,0 +1,138 @@
+FeedViewPost {
+    post: PostView {
+        author: ProfileViewBasic {
+            avatar: Some(
+                "https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg",
+            ),
+            did: "did:plc:z72i7hdynmk6r22z27h6tvur",
+            display_name: Some(
+                "Bluesky",
+            ),
+            handle: "bsky.app",
+            labels: Some(
+                [],
+            ),
+            viewer: Some(
+                ViewerState {
+                    blocked_by: Some(
+                        false,
+                    ),
+                    blocking: None,
+                    blocking_by_list: None,
+                    followed_by: None,
+                    following: None,
+                    muted: Some(
+                        false,
+                    ),
+                    muted_by_list: None,
+                },
+            ),
+        },
+        cid: "bafyreihh7m6bfrwlcjfklwturmja7qfse5gte7lskpmgw76flivimbnoqm",
+        embed: Some(
+            AppBskyEmbedImagesView(
+                View {
+                    images: [
+                        ViewImage {
+                            alt: "The bluesky logo with the blue butterfly",
+                            aspect_ratio: Some(
+                                AspectRatio {
+                                    height: 630,
+                                    width: 1200,
+                                },
+                            ),
+                            fullsize: "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreidypzoaybmfj5h7pnpiyct6ng5yae6ydp4czrm72ocg7ev6vbirri@jpeg",
+                            thumb: "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreidypzoaybmfj5h7pnpiyct6ng5yae6ydp4czrm72ocg7ev6vbirri@jpeg",
+                        },
+                    ],
+                },
+            ),
+        ),
+        indexed_at: "2023-12-22T18:58:32.715Z",
+        labels: Some(
+            [],
+        ),
+        like_count: Some(
+            16631,
+        ),
+        record: AppBskyFeedPost(
+            Record {
+                created_at: "2023-12-22T18:58:32.715Z",
+                embed: Some(
+                    AppBskyEmbedImagesMain(
+                        Main {
+                            images: [
+                                Image {
+                                    alt: "The bluesky logo with the blue butterfly",
+                                    aspect_ratio: Some(
+                                        AspectRatio {
+                                            height: 630,
+                                            width: 1200,
+                                        },
+                                    ),
+                                    image: Typed(
+                                        Blob(
+                                            Blob {
+                                                ref: CidLink {
+                                                    link: "bafkreidypzoaybmfj5h7pnpiyct6ng5yae6ydp4czrm72ocg7ev6vbirri",
+                                                },
+                                                mime_type: "image/jpeg",
+                                                size: 68017,
+                                            },
+                                        ),
+                                    ),
+                                },
+                            ],
+                        },
+                    ),
+                ),
+                entities: None,
+                facets: Some(
+                    [
+                        Main {
+                            features: [
+                                Link(
+                                    Link {
+                                        uri: "https://blueskyweb.xyz/blog/12-21-2023-butterfly",
+                                    },
+                                ),
+                            ],
+                            index: ByteSlice {
+                                byte_end: 236,
+                                byte_start: 206,
+                            },
+                        },
+                    ],
+                ),
+                labels: None,
+                langs: Some(
+                    [
+                        "en",
+                    ],
+                ),
+                reply: None,
+                tags: None,
+                text: "📢\u{a0}App Version 1.60 is rolling out now (1/5)\n\nWe have a new logo! 🦋\u{a0}\n\nBluesky is emerging from its cocoon of clouds to transform into a social butterfly. Read more about why we chose this logo here: blueskyweb.xyz/blog/12-21-2...",
+            },
+        ),
+        reply_count: Some(
+            698,
+        ),
+        repost_count: Some(
+            5390,
+        ),
+        threadgate: None,
+        uri: "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.post/3kh5rarr3gn2n",
+        viewer: Some(
+            ViewerState {
+                like: Some(
+                    "at://did:plc:yyu2qxcnr75f3pigoatck75p/app.bsky.feed.like/3klootl3iys2q",
+                ),
+                reply_disabled: None,
+                repost: None,
+            },
+        ),
+    },
+    reason: None,
+    reply: None,
+}
